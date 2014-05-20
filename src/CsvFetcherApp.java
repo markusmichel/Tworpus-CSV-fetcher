@@ -72,7 +72,7 @@ public class CsvFetcherApp {
 			return;
 		}
 		
-		String urlString = "http://localhost:3000/api/v1/tweets/find?format=csv&limit=" 
+		String urlString = "http://132.199.139.24:3000/api/v1/tweets/find?format=csv&limit=" 
 				+ numTweets + "&languages=" + language
 				+ "&wordcount=" + numMinWords + "&charcount=" + numMinChars
 				+ "&startDate=" + startDate.getTime() + "&endDate=" + endDate.getTime();
